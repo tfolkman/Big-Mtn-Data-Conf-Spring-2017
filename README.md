@@ -8,6 +8,3 @@
 4. Open localhost:8888 in browser. Make sure use Python 3 Kernel
 5. Download data from here:
 6. Unzip into the notebooks/data/training folder
-
-Sources:
-[1] https://github.com/fchollet/keras/tree/master/docker
