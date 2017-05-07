@@ -5,6 +5,6 @@
 1. Have [docker](https://docs.docker.com/engine/getstarted/step_one/) installed
 2. Clone this repo
 3. Run: docker run -it --rm -p 8888:8888  -v "$PWD/notebooks":/home/jovyan/work tfolkman/intermountain-data-conf-2017 
-4. Open localhost:8888 in browser. Make sure use Python 3 Kernel
-5. Download data from here:
-6. Unzip into the notebooks/data/training folder
+4. Copy the url shown in your terminal and paste it in the browser.
+5. Open model.ipynb
+6. Note: you can also use the requirements.txt to just run everything locally as well.
