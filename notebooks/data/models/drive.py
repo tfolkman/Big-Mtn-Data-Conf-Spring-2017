@@ -20,7 +20,7 @@ import math
 
 # Fix error with Keras and TensorFlow
 import tensorflow as tf
-tf.python.control_flow_ops = tf
+#tf.python.ops.control_flow_ops = tf
 
 
 sio = socketio.Server()
