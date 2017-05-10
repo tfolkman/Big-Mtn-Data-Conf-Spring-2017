@@ -2,9 +2,7 @@
 
 ## Setup
 
-1. Have [docker](https://docs.docker.com/engine/getstarted/step_one/) installed
-2. Clone this repo
-3. Run: docker run -it --rm -p 8888:8888  -v "$PWD/notebooks":/home/jovyan/work tfolkman/intermountain-data-conf-2017 
-4. Copy the url shown in your terminal and paste it in the browser.
-5. Open model.ipynb
-6. Note: you can also use the requirements.txt to just run everything locally as well.
+1. Clone this repo
+2. Install the python libraries from the requirements.txt. I would suggest in a virtual environment. See here: http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/
+3. Run "jupyter notebook" from the notebook folder
+4. Open model.ipynb
